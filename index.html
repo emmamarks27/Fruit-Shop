@@ -5,8 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="src/styles.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>Fruit Shop</title>
   </head>
-  <body></body>
-  <script src="src/java.js"></script>
+  <body>
+    <main id="main">
+      <div class="container">
+        <div class="test-fruits"></div>
+      </div>
+
+      <div class="container">
+        <div class="basket" id="basket">
+          <h2>Shopping Basket</h2>
+
+          <div class="cart-header cart-row">
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
+          </div>
+
+          <div class="cart-wrapper">
+            <div class="cart-row">
+              <span class="cart-item cart-column">Oranges</span>
+              <span class="cart-quantity cart-column">2</span>
+              <button class="remove-from-cart cart-column">
+                Remove from Cart
+              </button>
+            </div>
+
+            <div class="cart-row">
+              <span class="cart-item cart-column">Oranges</span>
+              <span class="cart-quantity cart-column">3</span>
+              <button class="remove-from-cart cart-column">
+                Remove from Cart
+              </button>
+            </div>
+
+            <div class="cart-row">
+              <span class="cart-item cart-column">Oranges</span>
+              <span class="cart-quantity cart-column">4</span>
+              <button class="remove-from-cart cart-column">
+                Remove from Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="cart-row total">
+            Total number of fruits: <span id="cart-total"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="src/java.js" aynsc></script>
 </html>

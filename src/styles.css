@@ -1,0 +1,82 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  color: black;
+}
+
+.container {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.test-fruits {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.test-fruits img {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.test-fruits h2 {
+  text-align: center;
+}
+
+.fruit-section {
+  margin: 50px 20px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.cart-column {
+  text-align: center;
+  margin-right: 1.5em;
+}
+
+.basket h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.cart-header.cart-row {
+  border-bottom: 2px solid black;
+  margin-bottom: 1.5em;
+}
+
+.cart-header {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.cart-row {
+  display: flex;
+  font-size: 1.5em;
+}
+
+.cart-item {
+  width: 30%;
+}
+
+.cart-quantity {
+  width: 30%;
+}
+
+.remove-from-cart {
+  background-color: beige;
+  width: 20%;
+}
+
+.total {
+  position: relative;
+  margin-top: 200px;
+  right: 5em;
+  justify-content: right;
+}
